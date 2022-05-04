@@ -1,0 +1,41 @@
+.nav-header{
+display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    text-align: center;
+    
+    background-color: rgba(250, 235, 215, 0.219);
+    padding: 25px;
+    
+}
+.nav-logo{
+    color: #565594;
+    font-size: 16px;
+}
+.nav-menu{
+list-style: none;
+display: flex;
+padding: 10px;
+}
+.nav-menu li {
+    margin-left: 10px;
+
+}
+.navLink{
+    text-decoration: none;
+    color: #565594;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.nav-menu .navLink:hover{
+    color: #191d26;
+    border-bottom: 1px solid #191d26;
+}
+
+
+/* #191d26 */
+
